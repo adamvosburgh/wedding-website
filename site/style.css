@@ -164,10 +164,14 @@ button,
   font-size: 0.75em;
 }
 
-.schedule a:hover {
-  background: var(--green);
-  color: var(--hi-fg);
-  text-decoration: none;
+/* Hover only where there is hover: a tap on a phone otherwise leaves the
+   highlight stuck on. */
+@media (hover: hover) {
+  .schedule a:hover {
+    background: var(--green);
+    color: var(--hi-fg);
+    text-decoration: none;
+  }
 }
 
 .schedule a:focus-visible,
@@ -192,8 +196,10 @@ button,
   user-select: none;
 }
 
-.day-toggle:hover {
-  background: var(--hi-soft);
+@media (hover: hover) {
+  .day-toggle:hover {
+    background: var(--hi-soft);
+  }
 }
 
 .day-toggle::after {
@@ -275,8 +281,10 @@ button,
   transition: background 0.15s ease;
 }
 
-.player-buttons button:hover {
-  background: var(--hi-soft);
+@media (hover: hover) {
+  .player-buttons button:hover {
+    background: var(--hi-soft);
+  }
 }
 
 .player-buttons button[aria-pressed='true'] {
@@ -325,9 +333,11 @@ button,
   padding: 0.1rem 0.6rem;
 }
 
-.flower-switch:hover {
-  background: var(--hi);
-  color: var(--hi-fg);
+@media (hover: hover) {
+  .flower-switch:hover {
+    background: var(--hi);
+    color: var(--hi-fg);
+  }
 }
 
 @media (max-width: 600px) {

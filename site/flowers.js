@@ -2,14 +2,19 @@
 //
 // The field: a few hundred flower emoji scattered in a border around the
 // sheet, about 10% of the width deep, thinning toward the text. The names
-// sit up in the top band, underneath them. It is placed on a jittered grid seeded by
-// cell, so when a day opens or closes and the sheet changes height, the
-// flowers already placed stay where they are.
+// sit up in the top band, underneath them. It is placed on a jittered grid
+// seeded by cell, so when a day opens or closes and the sheet changes height,
+// the flowers already placed stay where they are.
 //
 // The agents: the SMT site's cursor agents, as flowers. They steer toward
 // the pointer, keep a little apart from each other, bounce off the text, and
 // drift to a stop when the pointer goes idle. Five to start, and every click
-// brings one more in from the side. There is no maximum.
+// brings one more in from the side. There is no maximum. Mouse and wide
+// screens only: on a phone they have no room between the text and the edge,
+// and a fixed layer fights the scroll.
+//
+// The bursts: on a touch screen, a tap throws a handful of flowers outward
+// that spin and fade. That is the phone's version of the agents.
 //
 // The cost rules carried over from SMT: one canvas, one requestAnimationFrame
 // loop at a fixed 30 fps step, nothing allocated inside the loop, obstacles
@@ -498,9 +503,10 @@
     }
     draw(ctx);
 
-    // Not seeking, no petals in the air, and effectively stopped: park the
-    // loop until the pointer moves again. This is what "drift to a stop" means.
-    if (!seeking && bursting <= 0) {
+    // Not seeking (or nothing to seek with), no petals in the air, and
+    // effectively stopped: park the loop until the pointer moves again. This
+    // is what "drift to a stop" means.
+    if ((!seeking || count === 0) && bursting <= 0) {
       let moving = false;
       for (let i = 0; i < count; i++) {
         if (Math.abs(vxs[i]) + Math.abs(vys[i]) > 2) { moving = true; break; }
@@ -570,12 +576,16 @@
   document.addEventListener('pointerleave', () => (pointerIn = false));
   document.addEventListener('visibilitychange', () => (document.hidden ? stop() : start()));
 
-  // Every click brings another flower in from the side. Phones have no
-  // pointer to follow between taps, so a tap also bursts where it lands. On
-  // click rather than pointerdown, so scrolling does not burst.
+  // Agents where there is a mouse and room; everywhere else only bursts,
+  // and no switch, since the switch only turns the agents off.
+  const agents = window.matchMedia('(pointer: fine) and (min-width: 700px)').matches;
+
+  // With agents, every click brings another flower in from the side. On a
+  // touch screen a tap bursts where it lands instead - on click rather than
+  // pointerdown, so scrolling does not burst.
   document.addEventListener('click', (e) => {
     if (!on || e.target.closest('.flower-switch')) return;
-    spawn(true);
+    if (agents) spawn(true);
     if (lastPointerType !== 'mouse' && e.detail > 0) burst(e.clientX, e.clientY);
     start();
   });
@@ -595,11 +605,16 @@
 
   resize();
   collectObstacles();
-  // From the sides, like the rest.
-  for (let i = 0; i < START; i++) spawn(true);
   pointerX = window.innerWidth / 2;
   pointerY = window.innerHeight / 2;
-  setOn(readSwitch());
-  // Draw the first five where they are even before the pointer moves.
-  draw(ctx);
+  if (agents) {
+    // From the sides, like the rest.
+    for (let i = 0; i < START; i++) spawn(true);
+    setOn(readSwitch());
+    // Draw the first five where they are even before the pointer moves.
+    draw(ctx);
+  } else {
+    toggle.remove();
+    setOn(true);
+  }
 })();
