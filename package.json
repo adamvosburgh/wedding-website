@@ -1,0 +1,14 @@
+{
+  "name": "wedding-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "node scripts/build.js && node scripts/serve.js",
+    "dev:alt": "ALT_VIDEOS=all node scripts/build.js && node scripts/serve.js",
+    "media": "./scripts/prepare-media.sh"
+  },
+  "devDependencies": {
+    "marked": "^18.0.14"
+  }
+}
