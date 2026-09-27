@@ -4,7 +4,7 @@ Momo and I are so excited to see you later this week\! Both of us are getting ov
 
 Please below find a final itinerary for the weekend. We have left everything concentrated in the afternoon and evening, so your mornings are free. I have included a couple of suggested activities, and please do let us know if you would like any recommendations.
 
-All of this information is also available at ishiguro-vosburgh.net.
+All of this information is also available at [ishiguro-vosburgh.net](http://ishiguro-vosburgh.net).
 
 Best,
 
@@ -17,7 +17,7 @@ Adam \+ Momo
 Momo, Adam, Ed, Kristen, Maki, Roy, Erik and Becca
 
 ***From the Manhattan Club:** 15 minute walk, or 10 minutes via the downtown N or M train ([directions](https://maps.app.goo.gl/5aorN2rm5eFaFF4D7).)*  
-***From the Hilton Garden Inn LIC:** 20 minutes via the Manhattan F or E train from Queens Plaza to 47-50 St Rockefeller Center ([directions](https://maps.app.goo.gl/iw4bXVuzCZv6Cxrw6).)*
+***From the Home2 Suites LIC:** 25 minutes via the Manhattan M from 39av \- Dutch Kills to 49st ([directions](https://maps.app.goo.gl/tV87CfJdVtUYkSkG9).)*
 
 # Friday, October 2nd
 
@@ -35,7 +35,7 @@ Featuring officiant Andy Ladd, and usher Charlotte Ladd.
 *This park is almost at the northern tip of Manhattan, so please build in ample time for transit. Please note that Fort Tryon is very hilly, and there are many stairs. Please plan your footwear accordingly.* 
 
 ***From the Manhattan Club:** 30 minutes via the A train from 59st \- Columbus Circle to 190st ([directions](https://maps.app.goo.gl/fpbYGHqMaS5CBCrC9).)*  
-***From the Hilton Garden Inn LIC:** 50 minutes via the E train from Queens Plaza, transfer to the A train at 42st Port Authority Bus Terminal to the uptown A train to 190st ([directions](https://maps.app.goo.gl/Xbbi9yBY8xhXy3RC7).)*
+***From the Home2 Suites LIC:** 50 minutes via the E train from Queens Plaza, transfer to the A train at 42st Port Authority Bus Terminal to the uptown A train to 190st ([directions](https://maps.app.goo.gl/vTuys1yCH7LBfzXD6).)*
 
 ***From the station:***  
 [*Here is a video showing how to get from the 190st subway station to the entrance of the park.*](https://www.dropbox.com/scl/fi/ky9jxj831954fwlznq2b0/1-subway-entrance.mp4?rlkey=br9pwisflgwyw61v4p42p991c&dl=0) *It is also attached to this email.*  
@@ -49,14 +49,14 @@ Featuring officiant Andy Ladd, and usher Charlotte Ladd.
 
 *We will reserve two cars for 4pm to bring us to Fort Greene, Brooklyn. It will be a 45 minute to 1 hour 30 minute drive depending on traffic.* 
 
-*If we arrive early, we will go to [Golden Ratio](https://maps.app.goo.gl/Kd2m6rQxmuX3bANT7), the bar owned by the same people as Place des Fêtes.*
+*If we arrive early, we will go to [Golden Ratio](https://maps.app.goo.gl/Kd2m6rQxmuX3bANT7), the bar owned by the same people as Place des Fêtes.*  
 
 ## 5:30–8:30pm: Dinner Celebration\!
 
 *Prix-fixe dinner, drinks à la carte. There may be a couple of dishes outside of dietary restrictions. Additional food available à la carte if necessary.*
 
 ***Return to the Manhattan Club:** 30 to 45 minutes via car, or 45 minutes via the C train ([directions](https://maps.app.goo.gl/gdPKwdYrMhajvqzH8).)*  
-***Return to Hilton Garden Inn LIC:** 35 minutes via the G train ([directions](https://maps.app.goo.gl/xuVSed8rPHz37VLw7).)*
+***Return to Home2 Suites LIC:** 35 to 40 minutes via the Queens-bound G train, transfer to the E train at Court Square to Queens Plaza. ([directions](https://maps.app.goo.gl/uvCNX2oXnh2cmJEd7).)*
 
 # Saturday, October 3rd
 
