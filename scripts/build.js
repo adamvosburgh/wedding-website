@@ -103,7 +103,7 @@ const page = readFileSync(join(site, 'index.html'), 'utf8').replace('<!-- schedu
 writeFileSync(join(dist, 'index.html'), page);
 writeFileSync(join(dist, 'CNAME'), DOMAIN + '\n');
 
-for (const f of ['style.css', 'app.js', 'flowers.js']) cpSync(join(site, f), join(dist, f));
+for (const f of ['style.css', 'app.js', 'flowers.js', 'robots.txt']) cpSync(join(site, f), join(dist, f));
 for (const v of videos) {
   for (const ext of ['mp4', 'jpg']) {
     cpSync(join(site, `media/videos/${v.file}.${ext}`), join(dist, `media/videos/${v.file}.${ext}`));
