@@ -48,8 +48,11 @@ let md = readFileSync(join(root, 'content/schedule.md'), 'utf8');
 md = md.slice(md.search(/^# /m));
 
 // The copy was written for the email; on the site nothing is attached.
+// The sentence turns up as its own italic span, at the start of one, and at
+// the end of one.
 md = md
   .replace(/ \*It is also attached to this email\.\*/g, '')
+  .replace(/ \*It is also attached to this email\. /g, ' *')
   .replace(/ It is also attached to this email\./g, '')
   // ...and the videos are right there on the page, just below.
   .replace(/Here is a video showing how/g, 'The video below shows how')
