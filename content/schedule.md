@@ -44,9 +44,9 @@ Momo, Adam, Ed, Kristen, Maki, Roy, Erik, Becca, Charlotte, and officiated by An
 
 ## 3:15pm: Family Photos 
 
-## 4:00pm: Departure and Cars to Dinner at [Place des Fêtes](https://maps.app.goo.gl/R2BrUF4Lh35CfBiB9)
+## 4:00pm: Departure to Dinner at [Place des Fêtes](https://maps.app.goo.gl/R2BrUF4Lh35CfBiB9)
 
-*We’ll reserve two cars to bring us to Fort Greene, Brooklyn. Estimated 45 minute to 1 hour 30 minute drive, depending on traffic.* 
+*We have reserved a van to pick us up at Margaret Corbin Circle and bring us to Fort Greene, Brooklyn. Estimated 45 minute to 1 hour 30 minute drive, depending on traffic.* 
 
 *If we arrive before 5:30pm, drinks at [Golden Ratio](https://maps.app.goo.gl/Kd2m6rQxmuX3bANT7) a few doors down from Place des Fêtes.*  
 
